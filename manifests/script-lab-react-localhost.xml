@@ -10,13 +10,13 @@
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="[DEV] Script Lab React" />
   <Description DefaultValue="Create, run, and share your Office Add-in code snippets from within Excel, Word, or PowerPoint."></Description>
-  <IconUrl DefaultValue="https://localhost:3000/assets/images/icon-32.png" />
-  <HighResolutionIconUrl DefaultValue="https://localhost:3000/assets/images/icon-64.png" />
+  <IconUrl DefaultValue="http://localhost:3000/assets/images/icon-32.png" />
+  <HighResolutionIconUrl DefaultValue="http://localhost:3000/assets/images/icon-64.png" />
   <SupportUrl DefaultValue="https://github.com/OfficeDev/script-lab/issues" />
   <AppDomains>
     <AppDomain>https://github.com</AppDomain>
     <AppDomain>https://stackoverflow.com</AppDomain>
-    <AppDomain>https://localhost:3000</AppDomain>
+    <AppDomain>http://localhost:3000</AppDomain>
     <AppDomain>https://localhost:3200</AppDomain>
     <AppDomain>https://script-lab.azureedge.net</AppDomain>
     <AppDomain>https://script-lab-runner.azureedge.net</AppDomain>
@@ -47,7 +47,7 @@
     <Host Name="Presentation"/>
   </Hosts>
   <DefaultSettings>
-    <SourceLocation DefaultValue="https://localhost:3000" />
+    <SourceLocation DefaultValue="http://localhost:3000" />
   </DefaultSettings>
   <Permissions>ReadWriteDocument</Permissions>
   <VersionOverrides 
@@ -471,39 +471,39 @@
     </Hosts>
     <Resources>
       <bt:Images>
-        <bt:Image id="PG.Icon.16" DefaultValue="https://localhost:3000/assets/images/icon-16.png" />
-        <bt:Image id="PG.Icon.32" DefaultValue="https://localhost:3000/assets/images/icon-32.png" />
-        <bt:Image id="PG.Icon.80" DefaultValue="https://localhost:3000/assets/images/icon-80.png" />
-        <bt:Image id="PG.Icon.Code.16" DefaultValue="https://localhost:3000/assets/images/code-16.png" />
-        <bt:Image id="PG.Icon.Code.32" DefaultValue="https://localhost:3000/assets/images/code-32.png" />
-        <bt:Image id="PG.Icon.Code.80" DefaultValue="https://localhost:3000/assets/images/code-80.png" />
-        <bt:Image id="PG.Icon.CF.16" DefaultValue="https://localhost:3000/assets/images/fx-16.png" />
-        <bt:Image id="PG.Icon.CF.32" DefaultValue="https://localhost:3000/assets/images/fx-32.png" />
-        <bt:Image id="PG.Icon.CF.80" DefaultValue="https://localhost:3000/assets/images/fx-80.png" />
-        <bt:Image id="PG.Icon.Run.16" DefaultValue="https://localhost:3000/assets/images/run-16.png" />
-        <bt:Image id="PG.Icon.Run.32" DefaultValue="https://localhost:3000/assets/images/run-32.png" />
-        <bt:Image id="PG.Icon.Run.80" DefaultValue="https://localhost:3000/assets/images/run-80.png" />
-        <bt:Image id="PG.Icon.Tutorial.16" DefaultValue="https://localhost:3000/assets/images/tutorial-16.png" />
-        <bt:Image id="PG.Icon.Tutorial.32" DefaultValue="https://localhost:3000/assets/images/tutorial-32.png" />
-        <bt:Image id="PG.Icon.Tutorial.80" DefaultValue="https://localhost:3000/assets/images/tutorial-80.png" />
-        <bt:Image id="PG.Icon.Help.16" DefaultValue="https://localhost:3000/assets/images/help-16.png" />
-        <bt:Image id="PG.Icon.Help.32" DefaultValue="https://localhost:3000/assets/images/help-32.png" />
-        <bt:Image id="PG.Icon.Help.80" DefaultValue="https://localhost:3000/assets/images/help-80.png" />
-        <bt:Image id="PG.Icon.ApiDocs.16" DefaultValue="https://localhost:3000/assets/images/docs-16.png" />
-        <bt:Image id="PG.Icon.ApiDocs.32" DefaultValue="https://localhost:3000/assets/images/docs-32.png" />
-        <bt:Image id="PG.Icon.ApiDocs.80" DefaultValue="https://localhost:3000/assets/images/docs-80.png" />
-        <bt:Image id="PG.Icon.Ask.16" DefaultValue="https://localhost:3000/assets/images/ask-16.png" />
-        <bt:Image id="PG.Icon.Ask.32" DefaultValue="https://localhost:3000/assets/images/ask-32.png" />
-        <bt:Image id="PG.Icon.Ask.80" DefaultValue="https://localhost:3000/assets/images/ask-80.png" />
+        <bt:Image id="PG.Icon.16" DefaultValue="http://localhost:3000/assets/images/icon-16.png" />
+        <bt:Image id="PG.Icon.32" DefaultValue="http://localhost:3000/assets/images/icon-32.png" />
+        <bt:Image id="PG.Icon.80" DefaultValue="http://localhost:3000/assets/images/icon-80.png" />
+        <bt:Image id="PG.Icon.Code.16" DefaultValue="http://localhost:3000/assets/images/code-16.png" />
+        <bt:Image id="PG.Icon.Code.32" DefaultValue="http://localhost:3000/assets/images/code-32.png" />
+        <bt:Image id="PG.Icon.Code.80" DefaultValue="http://localhost:3000/assets/images/code-80.png" />
+        <bt:Image id="PG.Icon.CF.16" DefaultValue="http://localhost:3000/assets/images/fx-16.png" />
+        <bt:Image id="PG.Icon.CF.32" DefaultValue="http://localhost:3000/assets/images/fx-32.png" />
+        <bt:Image id="PG.Icon.CF.80" DefaultValue="http://localhost:3000/assets/images/fx-80.png" />
+        <bt:Image id="PG.Icon.Run.16" DefaultValue="http://localhost:3000/assets/images/run-16.png" />
+        <bt:Image id="PG.Icon.Run.32" DefaultValue="http://localhost:3000/assets/images/run-32.png" />
+        <bt:Image id="PG.Icon.Run.80" DefaultValue="http://localhost:3000/assets/images/run-80.png" />
+        <bt:Image id="PG.Icon.Tutorial.16" DefaultValue="http://localhost:3000/assets/images/tutorial-16.png" />
+        <bt:Image id="PG.Icon.Tutorial.32" DefaultValue="http://localhost:3000/assets/images/tutorial-32.png" />
+        <bt:Image id="PG.Icon.Tutorial.80" DefaultValue="http://localhost:3000/assets/images/tutorial-80.png" />
+        <bt:Image id="PG.Icon.Help.16" DefaultValue="http://localhost:3000/assets/images/help-16.png" />
+        <bt:Image id="PG.Icon.Help.32" DefaultValue="http://localhost:3000/assets/images/help-32.png" />
+        <bt:Image id="PG.Icon.Help.80" DefaultValue="http://localhost:3000/assets/images/help-80.png" />
+        <bt:Image id="PG.Icon.ApiDocs.16" DefaultValue="http://localhost:3000/assets/images/docs-16.png" />
+        <bt:Image id="PG.Icon.ApiDocs.32" DefaultValue="http://localhost:3000/assets/images/docs-32.png" />
+        <bt:Image id="PG.Icon.ApiDocs.80" DefaultValue="http://localhost:3000/assets/images/docs-80.png" />
+        <bt:Image id="PG.Icon.Ask.16" DefaultValue="http://localhost:3000/assets/images/ask-16.png" />
+        <bt:Image id="PG.Icon.Ask.32" DefaultValue="http://localhost:3000/assets/images/ask-32.png" />
+        <bt:Image id="PG.Icon.Ask.80" DefaultValue="http://localhost:3000/assets/images/ask-80.png" />
       </bt:Images>
       <bt:Urls>
-        <bt:Url id="PG.Code.Url" DefaultValue="https://localhost:3000?commands=1" />
-        <bt:Url id="PG.CF.Url" DefaultValue="https://localhost:3000/custom-functions.html" />
-        <bt:Url id="PG.Run.Url" DefaultValue="https://localhost:3000/run.html" />
-        <bt:Url id="PG.Functions.Url" DefaultValue="https://localhost:3000/functions.html" />
-        <bt:Url id="PG.CFRunner.Url" DefaultValue="https://localhost:3000/custom-functions-run.html" />
-        <bt:Url id="PG.CFRunner.Script" DefaultValue="https://localhost:3000/assets/custom-functions/functions.js" />
-        <bt:Url id="PG.CFRunner.Metadata" DefaultValue="https://localhost:3000/assets/custom-functions/functions.json" />
+        <bt:Url id="PG.Code.Url" DefaultValue="http://localhost:3000?commands=1" />
+        <bt:Url id="PG.CF.Url" DefaultValue="http://localhost:3000/custom-functions.html" />
+        <bt:Url id="PG.Run.Url" DefaultValue="http://localhost:3000/run.html" />
+        <bt:Url id="PG.Functions.Url" DefaultValue="http://localhost:3000/functions.html" />
+        <bt:Url id="PG.CFRunner.Url" DefaultValue="http://localhost:3000/custom-functions-run.html" />
+        <bt:Url id="PG.CFRunner.Script" DefaultValue="http://localhost:3000/assets/custom-functions/functions.js" />
+        <bt:Url id="PG.CFRunner.Metadata" DefaultValue="http://localhost:3000/assets/custom-functions/functions.json" />
       </bt:Urls>
       <bt:ShortStrings>
         <bt:String id="PG.TabLabel" DefaultValue="[DEV] Script Lab React" />

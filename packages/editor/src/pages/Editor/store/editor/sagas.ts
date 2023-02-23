@@ -281,5 +281,6 @@ function* applyFormattingSaga() {
 }
 
 function* navigateToRunSaga() {
+
   yield (window.location.href = `${currentRunnerUrl}?backButton=true`);
 }

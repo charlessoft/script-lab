@@ -41,7 +41,7 @@ export default ({
 
 <body>
   ${html}
-
+  ${scriptReferences}
   <script>
     window.parent.${METHODS_EXPOSED_ON_RUNNER_OUTER_FRAME.scriptRunnerOnLoad}(window);
   </script>

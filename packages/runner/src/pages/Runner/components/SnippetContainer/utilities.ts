@@ -3,6 +3,7 @@ import ts from 'typescript';
 export class SyntaxError extends Error {}
 
 export function compileTypeScript(content: string) {
+    debugger
   const result = ts.transpileModule(content, {
     reportDiagnostics: true,
     compilerOptions: {

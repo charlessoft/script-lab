@@ -26,7 +26,7 @@ const githubAppClientIds: IReactEnvironments = {
 };
 
 export const editorUrls: IAllSwitchableEnvironments = {
-  local: 'https://localhost:3000',
+  local: 'http://localhost:3000',
   alpha: 'https://script-lab-react-alpha.azurewebsites.net',
   beta: 'https://script-lab-react-beta.azurewebsites.net',
   staging: 'https://script-lab-react-staging.azurewebsites.net',
@@ -37,7 +37,7 @@ export const editorUrls: IAllSwitchableEnvironments = {
 };
 
 export const runnerUrls: IReactEnvironments = {
-  local: 'https://localhost:3200',
+  local: 'http://localhost:3200',
   alpha: 'https://script-lab-react-runner-alpha.azurewebsites.net',
   beta: 'https://script-lab-react-runner-beta.azurewebsites.net',
   staging: 'https://script-lab-react-runner-staging.azurewebsites.net',

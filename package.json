@@ -39,5 +39,8 @@
     "shelljs": "^0.8.5",
     "ts-node": "^7.0.1",
     "tslib": "^1.14.1"
+  },
+  "dependencies": {
+    "@microsoft/typescript-etw": "^0.1.0"
   }
 }
